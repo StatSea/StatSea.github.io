@@ -17,9 +17,8 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 mathjax: true
 
-
-
-
+ include:
+   - robots.txt
 
 # Enable sidebar
 defaults:
@@ -349,11 +348,3 @@ defaults:
       share: true
       related: true
 
-      
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-
-include:
-  - robots.txt
