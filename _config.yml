@@ -17,9 +17,6 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 mathjax: true
 
- include:
-   - robots.txt
-
 # Enable sidebar
 defaults:
   - scope:
