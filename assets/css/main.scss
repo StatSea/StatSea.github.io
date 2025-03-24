@@ -8,14 +8,3 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
-
-/* 제목 링크 밑줄 제거 */
-.page__content a,
-.archive a {
-  text-decoration: none;
-}
-
-.page__content a:hover,
-.archive a:hover {
-  text-decoration: underline;
-}
