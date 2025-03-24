@@ -14,8 +14,7 @@
 remote_theme           : "mmistakes/minimal-mistakes"
 
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-custom_css:
-  - /assets/css/custom.css
+
 mathjax: true
 
 
