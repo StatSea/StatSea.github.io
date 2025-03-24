@@ -17,15 +17,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 mathjax: true
 
-# 반드시 포함되어야 함
-include:
-  - robots.txt
-  - sitemap.xml
 
-# 아래는 있어야 sitemap.xml 생성됨
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
 
 
 
@@ -358,3 +350,9 @@ defaults:
       related: true
 
       
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+include:
+  - robots.txt
