@@ -10,6 +10,7 @@
     {% if page.use_math %}
     	{% include mathjax_support.html %}
     {% endif %}    
+    {% include custom-sidebar.html %}
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
@@ -39,4 +40,5 @@
 </html>
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 
