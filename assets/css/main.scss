@@ -9,10 +9,13 @@ search: false
 @import "minimal-mistakes"; // main partials
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 
-.custom-categories a {
+/* 제목 링크 밑줄 제거 */
+.page__content a,
+.archive a {
   text-decoration: none;
 }
 
-.custom-categories a:hover {
-  text-decoration: underline; // hover 시엔 밑줄 주고 싶으면
+.page__content a:hover,
+.archive a:hover {
+  text-decoration: underline;
 }
