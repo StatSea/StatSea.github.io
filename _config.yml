@@ -356,3 +356,6 @@ plugins:
 
 include:
   - robots.txt
+
+sidebar:
+  nav: "main"
