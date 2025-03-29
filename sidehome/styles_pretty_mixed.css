@@ -1,0 +1,212 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+
+/* 입력 필드 스타일 */
+input[type="text"], textarea {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 링크 hover 효과 */
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+/* 다크 모드 스타일 */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .container {
+    background-color: #1e1e1e;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode h1 {
+    color: #bb86fc;
+}
+
+body.dark-mode table, 
+body.dark-mode th, 
+body.dark-mode td {
+    border: 1px solid #555;
+}
+
+body.dark-mode fieldset {
+    border-color: #555;
+}
+
+body.dark-mode a {
+    color: #82aaff;
+}
+
+body.dark-mode a:hover {
+    color: #bb86fc;
+}
+
+/* 다크모드 전환 버튼 */
+.toggle-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+/* 방명록 카드 스타일 */
+#guestbook-entries {
+    margin-top: 30px;
+}
+
+.guestbook-card {
+    background-color: #f0f8ff;
+    border-left: 6px solid #4682b4;
+    margin-bottom: 15px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.guestbook-card strong {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.guestbook-card .timestamp {
+    font-size: 0.85em;
+    color: #666;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/* 다크모드에서 카드 스타일 */
+body.dark-mode .guestbook-card {
+    background-color: #2a2a2a;
+    border-left: 6px solid #82aaff;
+}
+
+body.dark-mode .guestbook-card strong {
+    color: #e0e0e0;
+}
+
+body.dark-mode .guestbook-card .timestamp {
+    color: #aaa;
+}
+
+/* input, textarea 개선 */
+input[type="text"], textarea {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+    color: #aaa;
+}
+
+
+/* 스타일 수정: 이미지만 가운데, 나머지 왼쪽 정렬 */
+
+body {
+    text-align: left;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+.interest-box, .skill-box {
+    background-color: #f0f8ff;
+    border-left: 6px solid #4682b4;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form {
+    text-align: left;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#guestbook-entries {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
