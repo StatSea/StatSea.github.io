@@ -344,3 +344,6 @@ defaults:
       share: true
       related: true
 
+# Custom includes
+include:
+  - _includes/custom/sidebar.html
