@@ -5,7 +5,7 @@ main:
   - title: "Categories"
     url: /categories/
   - title: "HomePage"
-    url:  https://statsea.github.io/my_page_guestbook_working.html
+    url:  https://statsea.github.io/sidehome/my_page_guestbook_working.html
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
