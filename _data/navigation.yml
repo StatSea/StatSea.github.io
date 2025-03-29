@@ -4,7 +4,8 @@ main:
     url: https://statsea.github.io/
   - title: "Categories"
     url: /categories/
-    
+  - title: "HomePage"
+    url:  https://statsea.github.io/my_page_guestbook_working.html
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
