@@ -1,3 +1,11 @@
+---
+layout: single
+title: "[DL] 딥러닝 01wk21"
+categories: [DL]
+tags: [DL]
+mathjax: true
+---
+
 # 딥러닝 01wk2 이해하기
 
 ## 기본 세팅
