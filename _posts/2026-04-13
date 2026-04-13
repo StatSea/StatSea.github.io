@@ -1,0 +1,15 @@
+---
+title: "[Project] 4/13 ~ 4/17 당뇨병 연구"
+date: 2026-04-13
+categories: [Data Science]
+tags: [Healthcare]
+toc: true
+toc_sticky: true
+---
+
+# 1. 데이터
+
+- 식이 데이터가 시험군 2에만 있기 때문에 시험군 2만 사용했습니다.
+- 그렇기 때문에 첫번째로는 모든 차시 (v1,v4,v5,v6) , 시험군 2, 신체 계측 정보만 뽑아서 새로운 엑셀파일을 만들었습니다.
+
+
